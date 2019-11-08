@@ -1,0 +1,2419 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_346e7e552d6646148d6c19e5f3b5b177 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_346e7e552d6646148d6c19e5f3b5b177" ></div>
+        
+</body>
+<script>    
+    
+            var map_346e7e552d6646148d6c19e5f3b5b177 = L.map(
+                "map_346e7e552d6646148d6c19e5f3b5b177",
+                {
+                    center: [32.7174209, -117.1627714],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_65eb1b1118674e1f89aec7f9271ab3ba = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+            var circle_marker_3e585a6d5b594d4cb5815071e5f9f50e = L.circleMarker(
+                [32.73284000000007, -117.10775999999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_fb46c65f14e64560bc091b6b63af9a45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aef9c210d4e34733be26d05ce74ba1f8 = $(`<div id="html_aef9c210d4e34733be26d05ce74ba1f8" style="width: 100.0%; height: 100.0%;">Allied Gardens, San Diego</div>`)[0];
+            popup_fb46c65f14e64560bc091b6b63af9a45.setContent(html_aef9c210d4e34733be26d05ce74ba1f8);
+        
+
+        circle_marker_3e585a6d5b594d4cb5815071e5f9f50e.bindPopup(popup_fb46c65f14e64560bc091b6b63af9a45)
+        ;
+
+        
+    
+    
+            var circle_marker_c4faea3f935546039294c17313276815 = L.circleMarker(
+                [32.728480025535305, -117.16124004053883],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_4749b200eb6b4e63bc0ed2712125918c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b06e72318c2e4ddf9cfda5e4c7c6a676 = $(`<div id="html_b06e72318c2e4ddf9cfda5e4c7c6a676" style="width: 100.0%; height: 100.0%;">Alta Vista, San Diego</div>`)[0];
+            popup_4749b200eb6b4e63bc0ed2712125918c.setContent(html_b06e72318c2e4ddf9cfda5e4c7c6a676);
+        
+
+        circle_marker_c4faea3f935546039294c17313276815.bindPopup(popup_4749b200eb6b4e63bc0ed2712125918c)
+        ;
+
+        
+    
+    
+            var circle_marker_8e4d1d725f9e485a8279f60121652779 = L.circleMarker(
+                [32.69467000000003, -117.13807999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_d66d3a487697462693c5f4ccf176f407 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11341b33cd5a4a1fb6c68c182529529c = $(`<div id="html_11341b33cd5a4a1fb6c68c182529529c" style="width: 100.0%; height: 100.0%;">Alvarado Estates, San Diego</div>`)[0];
+            popup_d66d3a487697462693c5f4ccf176f407.setContent(html_11341b33cd5a4a1fb6c68c182529529c);
+        
+
+        circle_marker_8e4d1d725f9e485a8279f60121652779.bindPopup(popup_d66d3a487697462693c5f4ccf176f407)
+        ;
+
+        
+    
+    
+            var circle_marker_df866d93eb804638b7c60706b16cb3a6 = L.circleMarker(
+                [32.69166000000007, -117.04083999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_d90dcd2ec2f64fc886a0c6cfbbdb1cdc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87dd45d2af814212ab5e1f50aa58d015 = $(`<div id="html_87dd45d2af814212ab5e1f50aa58d015" style="width: 100.0%; height: 100.0%;">Azalea Park, San Diego</div>`)[0];
+            popup_d90dcd2ec2f64fc886a0c6cfbbdb1cdc.setContent(html_87dd45d2af814212ab5e1f50aa58d015);
+        
+
+        circle_marker_df866d93eb804638b7c60706b16cb3a6.bindPopup(popup_d90dcd2ec2f64fc886a0c6cfbbdb1cdc)
+        ;
+
+        
+    
+    
+            var circle_marker_510c432f22b54e678de0c4c23a18a1db = L.circleMarker(
+                [32.813120000000026, -117.26510999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_a2ce423850944c6ab59a4a822f1f9e42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0306b043e85445558b816d43ea3f9259 = $(`<div id="html_0306b043e85445558b816d43ea3f9259" style="width: 100.0%; height: 100.0%;">Bankers Hill, San Diego</div>`)[0];
+            popup_a2ce423850944c6ab59a4a822f1f9e42.setContent(html_0306b043e85445558b816d43ea3f9259);
+        
+
+        circle_marker_510c432f22b54e678de0c4c23a18a1db.bindPopup(popup_a2ce423850944c6ab59a4a822f1f9e42)
+        ;
+
+        
+    
+    
+            var circle_marker_52d554d31f824c2899993e2b7c456847 = L.circleMarker(
+                [32.79290000000003, -117.15430999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_f90e89f1e1a34a0a94a92fe6f37735ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f71914fcedb54bf18ec929b5ce7d3f80 = $(`<div id="html_f71914fcedb54bf18ec929b5ce7d3f80" style="width: 100.0%; height: 100.0%;">Barrio Logan, San Diego</div>`)[0];
+            popup_f90e89f1e1a34a0a94a92fe6f37735ab.setContent(html_f71914fcedb54bf18ec929b5ce7d3f80);
+        
+
+        circle_marker_52d554d31f824c2899993e2b7c456847.bindPopup(popup_f90e89f1e1a34a0a94a92fe6f37735ab)
+        ;
+
+        
+    
+    
+            var circle_marker_5245c971eeb144c188da683c35a8cf11 = L.circleMarker(
+                [32.99950000000007, -117.14514999999994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_3eaaeef375ad4495922b136c9deea5fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_207b0c7576ed401698d047594bf81e00 = $(`<div id="html_207b0c7576ed401698d047594bf81e00" style="width: 100.0%; height: 100.0%;">Bay Terraces, San Diego</div>`)[0];
+            popup_3eaaeef375ad4495922b136c9deea5fb.setContent(html_207b0c7576ed401698d047594bf81e00);
+        
+
+        circle_marker_5245c971eeb144c188da683c35a8cf11.bindPopup(popup_3eaaeef375ad4495922b136c9deea5fb)
+        ;
+
+        
+    
+    
+            var circle_marker_4054e60b8c55447084a6c1328beafd44 = L.circleMarker(
+                [32.73105000000004, -117.05379999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_662be1c49f1a420fa6d86aa337c7f82e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d5637e1b71045a88452d34295023e80 = $(`<div id="html_3d5637e1b71045a88452d34295023e80" style="width: 100.0%; height: 100.0%;">Bird Rock, San Diego</div>`)[0];
+            popup_662be1c49f1a420fa6d86aa337c7f82e.setContent(html_3d5637e1b71045a88452d34295023e80);
+        
+
+        circle_marker_4054e60b8c55447084a6c1328beafd44.bindPopup(popup_662be1c49f1a420fa6d86aa337c7f82e)
+        ;
+
+        
+    
+    
+            var circle_marker_d7bfc2bd9b104e7bb808834f224fb6b3 = L.circleMarker(
+                [32.733755746072305, -117.1273439057351],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_8dadd047b6404ac0bd108ac92f172518 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30da7958ea1248d39dee8990c53eca5e = $(`<div id="html_30da7958ea1248d39dee8990c53eca5e" style="width: 100.0%; height: 100.0%;">Birdland, San Diego</div>`)[0];
+            popup_8dadd047b6404ac0bd108ac92f172518.setContent(html_30da7958ea1248d39dee8990c53eca5e);
+        
+
+        circle_marker_d7bfc2bd9b104e7bb808834f224fb6b3.bindPopup(popup_8dadd047b6404ac0bd108ac92f172518)
+        ;
+
+        
+    
+    
+            var circle_marker_bfe1e8f6536740cc91b9a05f69131fd1 = L.circleMarker(
+                [32.97878990705475, -117.08510654814945],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_4d1089366d5e4b32aa1939eadf44f3f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23f2733154454d1bb6135361355ac406 = $(`<div id="html_23f2733154454d1bb6135361355ac406" style="width: 100.0%; height: 100.0%;">Black Mountain Ranch, San Diego</div>`)[0];
+            popup_4d1089366d5e4b32aa1939eadf44f3f4.setContent(html_23f2733154454d1bb6135361355ac406);
+        
+
+        circle_marker_bfe1e8f6536740cc91b9a05f69131fd1.bindPopup(popup_4d1089366d5e4b32aa1939eadf44f3f4)
+        ;
+
+        
+    
+    
+            var circle_marker_4ad56b039c2e45a19aa095080d9be483 = L.circleMarker(
+                [32.715050000000076, -117.09319999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_54291631a0b341dda67b0b2f5918777f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5808915612b047eeb6a62a57823d62cd = $(`<div id="html_5808915612b047eeb6a62a57823d62cd" style="width: 100.0%; height: 100.0%;">Broadway Heights, San Diego</div>`)[0];
+            popup_54291631a0b341dda67b0b2f5918777f.setContent(html_5808915612b047eeb6a62a57823d62cd);
+        
+
+        circle_marker_4ad56b039c2e45a19aa095080d9be483.bindPopup(popup_54291631a0b341dda67b0b2f5918777f)
+        ;
+
+        
+    
+    
+            var circle_marker_48dc453d3b1b4d9d97e068565a624925 = L.circleMarker(
+                [32.749690000000044, -117.10714999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_9dcbea8f9fb14a68a7c91660375f9879 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abfa28a3b1d545639fdb0dba9ed28231 = $(`<div id="html_abfa28a3b1d545639fdb0dba9ed28231" style="width: 100.0%; height: 100.0%;">Burlingame, San Diego</div>`)[0];
+            popup_9dcbea8f9fb14a68a7c91660375f9879.setContent(html_abfa28a3b1d545639fdb0dba9ed28231);
+        
+
+        circle_marker_48dc453d3b1b4d9d97e068565a624925.bindPopup(popup_9dcbea8f9fb14a68a7c91660375f9879)
+        ;
+
+        
+    
+    
+            var circle_marker_7738109c0b7c47d386cefb96056d6d59 = L.circleMarker(
+                [32.7773667771192, -117.14775896124173],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_e2d944d9a48e41adb8bf27613d01e510 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_598741c662304fc7921d5ea8f81f8c09 = $(`<div id="html_598741c662304fc7921d5ea8f81f8c09" style="width: 100.0%; height: 100.0%;">Carmel Mountain Ranch, San Diego</div>`)[0];
+            popup_e2d944d9a48e41adb8bf27613d01e510.setContent(html_598741c662304fc7921d5ea8f81f8c09);
+        
+
+        circle_marker_7738109c0b7c47d386cefb96056d6d59.bindPopup(popup_e2d944d9a48e41adb8bf27613d01e510)
+        ;
+
+        
+    
+    
+            var circle_marker_6ea91fcce93c429abab2d39071610d89 = L.circleMarker(
+                [32.83456000000007, -117.19440999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_a5bf4724b0b547b181d1f45f6ad49cee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46b523ec272644cd846684325d19c06d = $(`<div id="html_46b523ec272644cd846684325d19c06d" style="width: 100.0%; height: 100.0%;">Chollas View, San Diego</div>`)[0];
+            popup_a5bf4724b0b547b181d1f45f6ad49cee.setContent(html_46b523ec272644cd846684325d19c06d);
+        
+
+        circle_marker_6ea91fcce93c429abab2d39071610d89.bindPopup(popup_a5bf4724b0b547b181d1f45f6ad49cee)
+        ;
+
+        
+    
+    
+            var circle_marker_926dd9879bf0431ebdf38701ba4d68b9 = L.circleMarker(
+                [32.74150139458533, -117.05027939458533],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_3227f8f8afc1481b94f9680a359c2c52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4f2c72ea7be437cba927f6ea2850bcc = $(`<div id="html_c4f2c72ea7be437cba927f6ea2850bcc" style="width: 100.0%; height: 100.0%;">City Heights, San Diego</div>`)[0];
+            popup_3227f8f8afc1481b94f9680a359c2c52.setContent(html_c4f2c72ea7be437cba927f6ea2850bcc);
+        
+
+        circle_marker_926dd9879bf0431ebdf38701ba4d68b9.bindPopup(popup_3227f8f8afc1481b94f9680a359c2c52)
+        ;
+
+        
+    
+    
+            var circle_marker_bb59a9f9916240b99e9b05d0b3deac6b = L.circleMarker(
+                [32.72229503553981, -117.16740899999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_bb575860ab554192b800eefe1e331b8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cb2555ada624924bea9ca38d59485cc = $(`<div id="html_6cb2555ada624924bea9ca38d59485cc" style="width: 100.0%; height: 100.0%;">Civita, San Diego</div>`)[0];
+            popup_bb575860ab554192b800eefe1e331b8f.setContent(html_6cb2555ada624924bea9ca38d59485cc);
+        
+
+        circle_marker_bb59a9f9916240b99e9b05d0b3deac6b.bindPopup(popup_bb575860ab554192b800eefe1e331b8f)
+        ;
+
+        
+    
+    
+            var circle_marker_ec7bb048e4714db88ba4cc4f10662fdc = L.circleMarker(
+                [32.71568000000008, -117.16170999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_a14cd6786def49e7b07da67d4eb87c70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4dbaf95dbec5461c865d58c5c70aef1f = $(`<div id="html_4dbaf95dbec5461c865d58c5c70aef1f" style="width: 100.0%; height: 100.0%;">Clairemont, San Diego</div>`)[0];
+            popup_a14cd6786def49e7b07da67d4eb87c70.setContent(html_4dbaf95dbec5461c865d58c5c70aef1f);
+        
+
+        circle_marker_ec7bb048e4714db88ba4cc4f10662fdc.bindPopup(popup_a14cd6786def49e7b07da67d4eb87c70)
+        ;
+
+        
+    
+    
+            var circle_marker_f3b4c5d7883245e086cff662f4aa6c5d = L.circleMarker(
+                [32.718920000000026, -117.15652999999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_3d294974f4164269b720de295e0119cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_537223c87704440abd5db726c464a6b6 = $(`<div id="html_537223c87704440abd5db726c464a6b6" style="width: 100.0%; height: 100.0%;">College Area, San Diego</div>`)[0];
+            popup_3d294974f4164269b720de295e0119cb.setContent(html_537223c87704440abd5db726c464a6b6);
+        
+
+        circle_marker_f3b4c5d7883245e086cff662f4aa6c5d.bindPopup(popup_3d294974f4164269b720de295e0119cb)
+        ;
+
+        
+    
+    
+            var circle_marker_1601864e0a914056955019adb445e263 = L.circleMarker(
+                [32.78762000000006, -117.06416999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_ea560093307740d596e67223df7e9522 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5466b8e410634785a03737cd025ec60f = $(`<div id="html_5466b8e410634785a03737cd025ec60f" style="width: 100.0%; height: 100.0%;">Columbia, San Diego</div>`)[0];
+            popup_ea560093307740d596e67223df7e9522.setContent(html_5466b8e410634785a03737cd025ec60f);
+        
+
+        circle_marker_1601864e0a914056955019adb445e263.bindPopup(popup_ea560093307740d596e67223df7e9522)
+        ;
+
+        
+    
+    
+            var circle_marker_bd7d1325eaa14b3b8e79acb4f2f51166 = L.circleMarker(
+                [32.948390000000074, -117.25991999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_05c495f814504e4887506fe5c98f2f5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53af7401d46346b8a8ba2b33ad9486eb = $(`<div id="html_53af7401d46346b8a8ba2b33ad9486eb" style="width: 100.0%; height: 100.0%;">Core, San Diego</div>`)[0];
+            popup_05c495f814504e4887506fe5c98f2f5b.setContent(html_53af7401d46346b8a8ba2b33ad9486eb);
+        
+
+        circle_marker_bd7d1325eaa14b3b8e79acb4f2f51166.bindPopup(popup_05c495f814504e4887506fe5c98f2f5b)
+        ;
+
+        
+    
+    
+            var circle_marker_488a48cee7464ff9b5e03b23e8f7d1fd = L.circleMarker(
+                [32.942570000000046, -117.18641999999994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_c873894c3ea64dee9576adb824f0d4cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db9a8ba28bd64887ae10a803f3c06a68 = $(`<div id="html_db9a8ba28bd64887ae10a803f3c06a68" style="width: 100.0%; height: 100.0%;">Cortez Hill, San Diego</div>`)[0];
+            popup_c873894c3ea64dee9576adb824f0d4cb.setContent(html_db9a8ba28bd64887ae10a803f3c06a68);
+        
+
+        circle_marker_488a48cee7464ff9b5e03b23e8f7d1fd.bindPopup(popup_c873894c3ea64dee9576adb824f0d4cb)
+        ;
+
+        
+    
+    
+            var circle_marker_327826b3c56a4c3dadb8a103f07c1284 = L.circleMarker(
+                [32.71969997778306, -117.15553997778298],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_b39678007d9548278b8306d35c03ee41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a7276f96275476f8efdfe3a617b0365 = $(`<div id="html_5a7276f96275476f8efdfe3a617b0365" style="width: 100.0%; height: 100.0%;">Del Cerro, San Diego</div>`)[0];
+            popup_b39678007d9548278b8306d35c03ee41.setContent(html_5a7276f96275476f8efdfe3a617b0365);
+        
+
+        circle_marker_327826b3c56a4c3dadb8a103f07c1284.bindPopup(popup_b39678007d9548278b8306d35c03ee41)
+        ;
+
+        
+    
+    
+            var circle_marker_1b0231bc587e46aeafce284387ac5270 = L.circleMarker(
+                [32.753660000000025, -117.19447999999994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_cd3a70a658824ff99e58e1f6845febbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af8aea84eedb4fd2ab985a36e48db349 = $(`<div id="html_af8aea84eedb4fd2ab985a36e48db349" style="width: 100.0%; height: 100.0%;">Del Mar Heights, San Diego</div>`)[0];
+            popup_cd3a70a658824ff99e58e1f6845febbb.setContent(html_af8aea84eedb4fd2ab985a36e48db349);
+        
+
+        circle_marker_1b0231bc587e46aeafce284387ac5270.bindPopup(popup_cd3a70a658824ff99e58e1f6845febbb)
+        ;
+
+        
+    
+    
+            var circle_marker_30cfded21f00472996a6b65cbdd5f706 = L.circleMarker(
+                [32.742975566621126, -117.22093586223096],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_79545648db974f6eb85bbcc1885bcbe0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63685c3b1b2b4662b8fb801f1c861a8f = $(`<div id="html_63685c3b1b2b4662b8fb801f1c861a8f" style="width: 100.0%; height: 100.0%;">Del Mar Mesa, San Diego</div>`)[0];
+            popup_79545648db974f6eb85bbcc1885bcbe0.setContent(html_63685c3b1b2b4662b8fb801f1c861a8f);
+        
+
+        circle_marker_30cfded21f00472996a6b65cbdd5f706.bindPopup(popup_79545648db974f6eb85bbcc1885bcbe0)
+        ;
+
+        
+    
+    
+            var circle_marker_c1146ff3609140aba002264ad95bf1d6 = L.circleMarker(
+                [32.71153000000004, -117.14968999999996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_8d2d4fef43d645b5b556959a07a53626 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dedffa268364e12810f78aa26345120 = $(`<div id="html_3dedffa268364e12810f78aa26345120" style="width: 100.0%; height: 100.0%;">Downtown San Diego</div>`)[0];
+            popup_8d2d4fef43d645b5b556959a07a53626.setContent(html_3dedffa268364e12810f78aa26345120);
+        
+
+        circle_marker_c1146ff3609140aba002264ad95bf1d6.bindPopup(popup_8d2d4fef43d645b5b556959a07a53626)
+        ;
+
+        
+    
+    
+            var circle_marker_eec79056e7f04e038952e8f4698e64d5 = L.circleMarker(
+                [32.58131000000003, -117.09698999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_f2cc9c2366834c22833eb0714cf0a727 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be9f80f1ddb242179ce1d37d7729cf3a = $(`<div id="html_be9f80f1ddb242179ce1d37d7729cf3a" style="width: 100.0%; height: 100.0%;">Dryden Historic District (San Diego)</div>`)[0];
+            popup_f2cc9c2366834c22833eb0714cf0a727.setContent(html_be9f80f1ddb242179ce1d37d7729cf3a);
+        
+
+        circle_marker_eec79056e7f04e038952e8f4698e64d5.bindPopup(popup_f2cc9c2366834c22833eb0714cf0a727)
+        ;
+
+        
+    
+    
+            var circle_marker_2428c84d18814234af53faa68350dc3c = L.circleMarker(
+                [32.75467000000003, -117.07290999999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_476cd6e9d32545feb70f8482073d30f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_189ce25bda6843339688b9692d265f8f = $(`<div id="html_189ce25bda6843339688b9692d265f8f" style="width: 100.0%; height: 100.0%;">East Elliott, San Diego</div>`)[0];
+            popup_476cd6e9d32545feb70f8482073d30f9.setContent(html_189ce25bda6843339688b9692d265f8f);
+        
+
+        circle_marker_2428c84d18814234af53faa68350dc3c.bindPopup(popup_476cd6e9d32545feb70f8482073d30f9)
+        ;
+
+        
+    
+    
+            var circle_marker_a8279c0a26004ecfb8bdb26e980f5cd7 = L.circleMarker(
+                [33.02656002221706, -117.27323992339427],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_21dc6b68feb84079abc1b01d7a9942fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_098c6c7df8354ca08665328d2ea665a5 = $(`<div id="html_098c6c7df8354ca08665328d2ea665a5" style="width: 100.0%; height: 100.0%;">East Village, San Diego</div>`)[0];
+            popup_21dc6b68feb84079abc1b01d7a9942fa.setContent(html_098c6c7df8354ca08665328d2ea665a5);
+        
+
+        circle_marker_a8279c0a26004ecfb8bdb26e980f5cd7.bindPopup(popup_21dc6b68feb84079abc1b01d7a9942fa)
+        ;
+
+        
+    
+    
+            var circle_marker_e8d5c0f1462143988af88290458f118b = L.circleMarker(
+                [32.71551000000005, -117.07630999999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_979ab0e1346843bab71c73412d5ff2d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_308a4205c6fc4a7d9ded1b75a64063aa = $(`<div id="html_308a4205c6fc4a7d9ded1b75a64063aa" style="width: 100.0%; height: 100.0%;">Egger Highlands, San Diego</div>`)[0];
+            popup_979ab0e1346843bab71c73412d5ff2d8.setContent(html_308a4205c6fc4a7d9ded1b75a64063aa);
+        
+
+        circle_marker_e8d5c0f1462143988af88290458f118b.bindPopup(popup_979ab0e1346843bab71c73412d5ff2d8)
+        ;
+
+        
+    
+    
+            var circle_marker_b86cd70bcff749b8aa42bd40bcfaa3bc = L.circleMarker(
+                [32.720470000000034, -117.05887999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_8bd82f7b02bc440e96ec3dc378038e06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44d612d605a748ce921e07c068196e7a = $(`<div id="html_44d612d605a748ce921e07c068196e7a" style="width: 100.0%; height: 100.0%;">El Cerrito, San Diego</div>`)[0];
+            popup_8bd82f7b02bc440e96ec3dc378038e06.setContent(html_44d612d605a748ce921e07c068196e7a);
+        
+
+        circle_marker_b86cd70bcff749b8aa42bd40bcfaa3bc.bindPopup(popup_8bd82f7b02bc440e96ec3dc378038e06)
+        ;
+
+        
+    
+    
+            var circle_marker_6f1073c4e19e4e8e9c8812b98ab18fea = L.circleMarker(
+                [32.74670000000003, -117.10090999999994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_2c42ab939ec0488aac56831ab887f495 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c366bfb2d3747c09095ac8b09431c91 = $(`<div id="html_6c366bfb2d3747c09095ac8b09431c91" style="width: 100.0%; height: 100.0%;">El Pueblo Ribera</div>`)[0];
+            popup_2c42ab939ec0488aac56831ab887f495.setContent(html_6c366bfb2d3747c09095ac8b09431c91);
+        
+
+        circle_marker_6f1073c4e19e4e8e9c8812b98ab18fea.bindPopup(popup_2c42ab939ec0488aac56831ab887f495)
+        ;
+
+        
+    
+    
+            var circle_marker_13a91ed66b104b6bb11e27b85d276606 = L.circleMarker(
+                [32.83756257268218, -117.26238673503418],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_a3481fc4142b4ee891fc6b90533714b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc68d37e6fa3421ab0f88d13e769bcb8 = $(`<div id="html_bc68d37e6fa3421ab0f88d13e769bcb8" style="width: 100.0%; height: 100.0%;">Emerald Hills, San Diego</div>`)[0];
+            popup_a3481fc4142b4ee891fc6b90533714b1.setContent(html_bc68d37e6fa3421ab0f88d13e769bcb8);
+        
+
+        circle_marker_13a91ed66b104b6bb11e27b85d276606.bindPopup(popup_a3481fc4142b4ee891fc6b90533714b1)
+        ;
+
+        
+    
+    
+            var circle_marker_b7a2b92cd59d42c28dd397f488f5fe04 = L.circleMarker(
+                [32.71047005496561, -117.1607300255352],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_ce93e3334a23439a91754d5432718f69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75ca2e2467da42afad3b61d7aadec911 = $(`<div id="html_75ca2e2467da42afad3b61d7aadec911" style="width: 100.0%; height: 100.0%;">Encanto, San Diego</div>`)[0];
+            popup_ce93e3334a23439a91754d5432718f69.setContent(html_75ca2e2467da42afad3b61d7aadec911);
+        
+
+        circle_marker_b7a2b92cd59d42c28dd397f488f5fe04.bindPopup(popup_ce93e3334a23439a91754d5432718f69)
+        ;
+
+        
+    
+    
+            var circle_marker_9a2e92c2101548ec88ea9cc28d362d67 = L.circleMarker(
+                [32.72526052173389, -117.1084374897652],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_f6cd712db831493e9e920a4cf1584b86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6aaa04184fea4c24b7f8a1de3b27412c = $(`<div id="html_6aaa04184fea4c24b7f8a1de3b27412c" style="width: 100.0%; height: 100.0%;">Fairmount Park, San Diego</div>`)[0];
+            popup_f6cd712db831493e9e920a4cf1584b86.setContent(html_6aaa04184fea4c24b7f8a1de3b27412c);
+        
+
+        circle_marker_9a2e92c2101548ec88ea9cc28d362d67.bindPopup(popup_f6cd712db831493e9e920a4cf1584b86)
+        ;
+
+        
+    
+    
+            var circle_marker_a22e9f6dbb4d463fb85ea74bc5376143 = L.circleMarker(
+                [32.71586000000008, -117.13190999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_5138a1baec43439fa493ccfa0fad4a99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_442523a6e51148d79588926d4ac634f5 = $(`<div id="html_442523a6e51148d79588926d4ac634f5" style="width: 100.0%; height: 100.0%;">Fairway Village</div>`)[0];
+            popup_5138a1baec43439fa493ccfa0fad4a99.setContent(html_442523a6e51148d79588926d4ac634f5);
+        
+
+        circle_marker_a22e9f6dbb4d463fb85ea74bc5376143.bindPopup(popup_5138a1baec43439fa493ccfa0fad4a99)
+        ;
+
+        
+    
+    
+            var circle_marker_94da90f072ab40f291003d1efbebc346 = L.circleMarker(
+                [32.71126000000004, -117.13384999999994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_7c4b4acaeb164992a1ccb8f6947e2bb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55b7870894834af58f4a9de744c3ef45 = $(`<div id="html_55b7870894834af58f4a9de744c3ef45" style="width: 100.0%; height: 100.0%;">Gaslamp Quarter, San Diego</div>`)[0];
+            popup_7c4b4acaeb164992a1ccb8f6947e2bb1.setContent(html_55b7870894834af58f4a9de744c3ef45);
+        
+
+        circle_marker_94da90f072ab40f291003d1efbebc346.bindPopup(popup_7c4b4acaeb164992a1ccb8f6947e2bb1)
+        ;
+
+        
+    
+    
+            var circle_marker_68fcc2357a1b418188e8d73dc19003d0 = L.circleMarker(
+                [32.78741000000008, -117.09772999999996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_f0b0573418f84320943cb51d413c12e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_188731767456405f96ff9c9ff08646ce = $(`<div id="html_188731767456405f96ff9c9ff08646ce" style="width: 100.0%; height: 100.0%;">Gateway, San Diego</div>`)[0];
+            popup_f0b0573418f84320943cb51d413c12e9.setContent(html_188731767456405f96ff9c9ff08646ce);
+        
+
+        circle_marker_68fcc2357a1b418188e8d73dc19003d0.bindPopup(popup_f0b0573418f84320943cb51d413c12e9)
+        ;
+
+        
+    
+    
+            var circle_marker_d045190baa9f4b8dbf8d0a8e8452e4b0 = L.circleMarker(
+                [32.72522967803902, -117.20170962471273],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_8249db92b1c54820a8b8ad5c6fd545e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a92363ea0d2411785ff866e98956189 = $(`<div id="html_0a92363ea0d2411785ff866e98956189" style="width: 100.0%; height: 100.0%;">Golden Hill, San Diego</div>`)[0];
+            popup_8249db92b1c54820a8b8ad5c6fd545e8.setContent(html_0a92363ea0d2411785ff866e98956189);
+        
+
+        circle_marker_d045190baa9f4b8dbf8d0a8e8452e4b0.bindPopup(popup_8249db92b1c54820a8b8ad5c6fd545e8)
+        ;
+
+        
+    
+    
+            var circle_marker_4d08e24510254838ba18673295de1b81 = L.circleMarker(
+                [32.72715000000005, -117.17259999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_cd077336031a4b0b8c98d9fbc23d0f50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1949b1bd629b495cad99ebe673154fec = $(`<div id="html_1949b1bd629b495cad99ebe673154fec" style="width: 100.0%; height: 100.0%;">Grant Hill, San Diego</div>`)[0];
+            popup_cd077336031a4b0b8c98d9fbc23d0f50.setContent(html_1949b1bd629b495cad99ebe673154fec);
+        
+
+        circle_marker_4d08e24510254838ba18673295de1b81.bindPopup(popup_cd077336031a4b0b8c98d9fbc23d0f50)
+        ;
+
+        
+    
+    
+            var circle_marker_9cc03c50d0214e53a625fa4ce079e9e4 = L.circleMarker(
+                [32.74995000000007, -117.16555999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_f857cd42c33348839a969d48f2c6c86a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07d38291420947ab897f0f9798a0bf33 = $(`<div id="html_07d38291420947ab897f0f9798a0bf33" style="width: 100.0%; height: 100.0%;">Grantville, San Diego</div>`)[0];
+            popup_f857cd42c33348839a969d48f2c6c86a.setContent(html_07d38291420947ab897f0f9798a0bf33);
+        
+
+        circle_marker_9cc03c50d0214e53a625fa4ce079e9e4.bindPopup(popup_f857cd42c33348839a969d48f2c6c86a)
+        ;
+
+        
+    
+    
+            var circle_marker_a822666ba8f045c89e784a5e3778e6cc = L.circleMarker(
+                [32.74031000000008, -117.09109999999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_9abbf0d76ea0486a983345713567fbe4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcdc32908cfd446390e3f2770fce80f2 = $(`<div id="html_dcdc32908cfd446390e3f2770fce80f2" style="width: 100.0%; height: 100.0%;">Harbor Island, San Diego</div>`)[0];
+            popup_9abbf0d76ea0486a983345713567fbe4.setContent(html_dcdc32908cfd446390e3f2770fce80f2);
+        
+
+        circle_marker_a822666ba8f045c89e784a5e3778e6cc.bindPopup(popup_9abbf0d76ea0486a983345713567fbe4)
+        ;
+
+        
+    
+    
+            var circle_marker_2342492089514e5cb6a2e1c42ba5607a = L.circleMarker(
+                [32.71285788365195, -117.03649070079422],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_17a790091300499a9778d963382acf27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2ec79d276cc4d819b4bc4f86d8ac37c = $(`<div id="html_a2ec79d276cc4d819b4bc4f86d8ac37c" style="width: 100.0%; height: 100.0%;">Harborview, San Diego</div>`)[0];
+            popup_17a790091300499a9778d963382acf27.setContent(html_a2ec79d276cc4d819b4bc4f86d8ac37c);
+        
+
+        circle_marker_2342492089514e5cb6a2e1c42ba5607a.bindPopup(popup_17a790091300499a9778d963382acf27)
+        ;
+
+        
+    
+    
+            var circle_marker_d7672f49b1ed4826ac3f8f6455f61ba1 = L.circleMarker(
+                [32.82181000000003, -117.14961999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_8ed55e8350a84217a75330a644d7162f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c711d7edd60a4d62a6eb1d6c094b1ec2 = $(`<div id="html_c711d7edd60a4d62a6eb1d6c094b1ec2" style="width: 100.0%; height: 100.0%;">Hillcrest, San Diego</div>`)[0];
+            popup_8ed55e8350a84217a75330a644d7162f.setContent(html_c711d7edd60a4d62a6eb1d6c094b1ec2);
+        
+
+        circle_marker_d7672f49b1ed4826ac3f8f6455f61ba1.bindPopup(popup_8ed55e8350a84217a75330a644d7162f)
+        ;
+
+        
+    
+    
+            var circle_marker_86ad0f2b95bd4fd4800d62d1f16b79d8 = L.circleMarker(
+                [32.764940000000024, -117.10501],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_0f3c8c54bd4645ef8fafa3fea5ccd8f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6f9febabcd84edeab5f2d226b47218a = $(`<div id="html_b6f9febabcd84edeab5f2d226b47218a" style="width: 100.0%; height: 100.0%;">Islenair, San Diego</div>`)[0];
+            popup_0f3c8c54bd4645ef8fafa3fea5ccd8f3.setContent(html_b6f9febabcd84edeab5f2d226b47218a);
+        
+
+        circle_marker_86ad0f2b95bd4fd4800d62d1f16b79d8.bindPopup(popup_0f3c8c54bd4645ef8fafa3fea5ccd8f3)
+        ;
+
+        
+    
+    
+            var circle_marker_8ca5ee416cdc4f0b880fe3b4b283be31 = L.circleMarker(
+                [32.840850000000046, -117.25779999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_6b5334db04a743029bca24387875f1b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1930eabd521b4bd39f768d6518268f38 = $(`<div id="html_1930eabd521b4bd39f768d6518268f38" style="width: 100.0%; height: 100.0%;">Jamacha, San Diego</div>`)[0];
+            popup_6b5334db04a743029bca24387875f1b6.setContent(html_1930eabd521b4bd39f768d6518268f38);
+        
+
+        circle_marker_8ca5ee416cdc4f0b880fe3b4b283be31.bindPopup(popup_6b5334db04a743029bca24387875f1b6)
+        ;
+
+        
+    
+    
+            var circle_marker_c536b5ef13a9440c82bca6719eaa5a1b = L.circleMarker(
+                [32.86162000000007, -117.23321999999996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_51b4de773c2c4c9fab1682021a071e25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12031126e67442ada79f453daa69eb4a = $(`<div id="html_12031126e67442ada79f453daa69eb4a" style="width: 100.0%; height: 100.0%;">Kearny Mesa, San Diego</div>`)[0];
+            popup_51b4de773c2c4c9fab1682021a071e25.setContent(html_12031126e67442ada79f453daa69eb4a);
+        
+
+        circle_marker_c536b5ef13a9440c82bca6719eaa5a1b.bindPopup(popup_51b4de773c2c4c9fab1682021a071e25)
+        ;
+
+        
+    
+    
+            var circle_marker_11ab47353e2c4065970b0a877e80ac10 = L.circleMarker(
+                [32.718300000000056, -117.23369999999994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_5bb9ecdc741a4d6cbe3ac6bcc3b16afd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_954b62ef1a5f4bfb899d4aa0c1b468fd = $(`<div id="html_954b62ef1a5f4bfb899d4aa0c1b468fd" style="width: 100.0%; height: 100.0%;">Kensington, San Diego</div>`)[0];
+            popup_5bb9ecdc741a4d6cbe3ac6bcc3b16afd.setContent(html_954b62ef1a5f4bfb899d4aa0c1b468fd);
+        
+
+        circle_marker_11ab47353e2c4065970b0a877e80ac10.bindPopup(popup_5bb9ecdc741a4d6cbe3ac6bcc3b16afd)
+        ;
+
+        
+    
+    
+            var circle_marker_3fd94fb0e73348a5aeecc96bc84306da = L.circleMarker(
+                [32.699380000000076, -117.09048999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_a7802272c2ff43d3b326e5d563c19424 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b556efb9f5644c1886375d40f155757b = $(`<div id="html_b556efb9f5644c1886375d40f155757b" style="width: 100.0%; height: 100.0%;">La Jolla</div>`)[0];
+            popup_a7802272c2ff43d3b326e5d563c19424.setContent(html_b556efb9f5644c1886375d40f155757b);
+        
+
+        circle_marker_3fd94fb0e73348a5aeecc96bc84306da.bindPopup(popup_a7802272c2ff43d3b326e5d563c19424)
+        ;
+
+        
+    
+    
+            var circle_marker_4583bafadad64729b5cd47ad4326ef4f = L.circleMarker(
+                [32.784190000000024, -117.17134999999996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_3322eedda0f641f2bd49e21834fef9ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fcefad886574fc1a2396fb68a27324c = $(`<div id="html_5fcefad886574fc1a2396fb68a27324c" style="width: 100.0%; height: 100.0%;">La Jolla Village, San Diego</div>`)[0];
+            popup_3322eedda0f641f2bd49e21834fef9ba.setContent(html_5fcefad886574fc1a2396fb68a27324c);
+        
+
+        circle_marker_4583bafadad64729b5cd47ad4326ef4f.bindPopup(popup_3322eedda0f641f2bd49e21834fef9ba)
+        ;
+
+        
+    
+    
+            var circle_marker_3b6466c5da5f4c35b6b0ef16c97704df = L.circleMarker(
+                [32.72586000000007, -117.1676],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_c63d0196ce654e928bcbdc14105b0bc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a8836b6d5b3482b96d7255352611691 = $(`<div id="html_6a8836b6d5b3482b96d7255352611691" style="width: 100.0%; height: 100.0%;">La Playa, San Diego</div>`)[0];
+            popup_c63d0196ce654e928bcbdc14105b0bc2.setContent(html_6a8836b6d5b3482b96d7255352611691);
+        
+
+        circle_marker_3b6466c5da5f4c35b6b0ef16c97704df.bindPopup(popup_c63d0196ce654e928bcbdc14105b0bc2)
+        ;
+
+        
+    
+    
+            var circle_marker_bbbd994fb38a4f039d1f86809581db9d = L.circleMarker(
+                [32.711550000000045, -117.14420999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_5ca5389ceb9043829658263f8347e8d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89a4442148ed4e7cb34e94ed50f9d360 = $(`<div id="html_89a4442148ed4e7cb34e94ed50f9d360" style="width: 100.0%; height: 100.0%;">Lincoln Park, San Diego</div>`)[0];
+            popup_5ca5389ceb9043829658263f8347e8d0.setContent(html_89a4442148ed4e7cb34e94ed50f9d360);
+        
+
+        circle_marker_bbbd994fb38a4f039d1f86809581db9d.bindPopup(popup_5ca5389ceb9043829658263f8347e8d0)
+        ;
+
+        
+    
+    
+            var circle_marker_eaa1cc1d50814f88926d4d0464b6f7ad = L.circleMarker(
+                [32.74020000000007, -117.23865999999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_891b8a5849e74bee866e9fd40cd11e93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_361fa20092c64ef28b2890a1a783fe93 = $(`<div id="html_361fa20092c64ef28b2890a1a783fe93" style="width: 100.0%; height: 100.0%;">Linda Vista, San Diego</div>`)[0];
+            popup_891b8a5849e74bee866e9fd40cd11e93.setContent(html_361fa20092c64ef28b2890a1a783fe93);
+        
+
+        circle_marker_eaa1cc1d50814f88926d4d0464b6f7ad.bindPopup(popup_891b8a5849e74bee866e9fd40cd11e93)
+        ;
+
+        
+    
+    
+            var circle_marker_22a49f380c0b4a1fb04216a4baf2bf68 = L.circleMarker(
+                [32.763905817881664, -117.1443269471381],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_34a36716e4f24e99b1542480e6f730b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b7043b62d9349c49c1ac2d88e09742f = $(`<div id="html_4b7043b62d9349c49c1ac2d88e09742f" style="width: 100.0%; height: 100.0%;">Little Italy, San Diego</div>`)[0];
+            popup_34a36716e4f24e99b1542480e6f730b4.setContent(html_4b7043b62d9349c49c1ac2d88e09742f);
+        
+
+        circle_marker_22a49f380c0b4a1fb04216a4baf2bf68.bindPopup(popup_34a36716e4f24e99b1542480e6f730b4)
+        ;
+
+        
+    
+    
+            var circle_marker_0e9894510caf44249d6c910237b53ee4 = L.circleMarker(
+                [32.71096000000006, -117.16559999999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_f3425bb28493406894a739f934a08c96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_457082e0be234826ae9e43efe37413dd = $(`<div id="html_457082e0be234826ae9e43efe37413dd" style="width: 100.0%; height: 100.0%;">Logan Heights, San Diego</div>`)[0];
+            popup_f3425bb28493406894a739f934a08c96.setContent(html_457082e0be234826ae9e43efe37413dd);
+        
+
+        circle_marker_0e9894510caf44249d6c910237b53ee4.bindPopup(popup_f3425bb28493406894a739f934a08c96)
+        ;
+
+        
+    
+    
+            var circle_marker_bcf519e2e68b4c0d926ed5d95bd359c4 = L.circleMarker(
+                [32.727054696207745, -117.12425343672709],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_ab743a8d38074917a20292cb3ae417c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ada5cf2b314c42ceb5619a4db5295e46 = $(`<div id="html_ada5cf2b314c42ceb5619a4db5295e46" style="width: 100.0%; height: 100.0%;">Loma Portal, San Diego</div>`)[0];
+            popup_ab743a8d38074917a20292cb3ae417c5.setContent(html_ada5cf2b314c42ceb5619a4db5295e46);
+        
+
+        circle_marker_bcf519e2e68b4c0d926ed5d95bd359c4.bindPopup(popup_ab743a8d38074917a20292cb3ae417c5)
+        ;
+
+        
+    
+    
+            var circle_marker_fd0c5f7538b3489793bdb23f2b4b8142 = L.circleMarker(
+                [32.69598000000008, -117.12562999999994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_fd7c3e622a95438791d3ff8198384700 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef9de0ddc58640c3819e9e8a60207a53 = $(`<div id="html_ef9de0ddc58640c3819e9e8a60207a53" style="width: 100.0%; height: 100.0%;">Lomita, San Diego</div>`)[0];
+            popup_fd7c3e622a95438791d3ff8198384700.setContent(html_ef9de0ddc58640c3819e9e8a60207a53);
+        
+
+        circle_marker_fd0c5f7538b3489793bdb23f2b4b8142.bindPopup(popup_fd7c3e622a95438791d3ff8198384700)
+        ;
+
+        
+    
+    
+            var circle_marker_868274d87c5148bab6b3e3a061db828a = L.circleMarker(
+                [32.737010000000055, -117.17575],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_9c07395e8647413da28cefbd3c20c6cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0682eb5a670144419dd03e61ebfdecbb = $(`<div id="html_0682eb5a670144419dd03e61ebfdecbb" style="width: 100.0%; height: 100.0%;">Marina, San Diego</div>`)[0];
+            popup_9c07395e8647413da28cefbd3c20c6cb.setContent(html_0682eb5a670144419dd03e61ebfdecbb);
+        
+
+        circle_marker_868274d87c5148bab6b3e3a061db828a.bindPopup(popup_9c07395e8647413da28cefbd3c20c6cb)
+        ;
+
+        
+    
+    
+            var circle_marker_de835b3f4fc54a2f826c4758b512fe71 = L.circleMarker(
+                [32.71568000000008, -117.16170999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_6dd3eac5e7bc4c499d7ce501e343ed33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13add601ce60490abc1eb395cc8e3d67 = $(`<div id="html_13add601ce60490abc1eb395cc8e3d67" style="width: 100.0%; height: 100.0%;">Marston Hills, San Diego</div>`)[0];
+            popup_6dd3eac5e7bc4c499d7ce501e343ed33.setContent(html_13add601ce60490abc1eb395cc8e3d67);
+        
+
+        circle_marker_de835b3f4fc54a2f826c4758b512fe71.bindPopup(popup_6dd3eac5e7bc4c499d7ce501e343ed33)
+        ;
+
+        
+    
+    
+            var circle_marker_4431163a5fea4407bf4df0518cc37ccf = L.circleMarker(
+                [32.714770000000044, -117.17310999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_fd3b928dc5a54064a042133d2b2aaf67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d0ffcc251594150ae3c46a409df7f0e = $(`<div id="html_8d0ffcc251594150ae3c46a409df7f0e" style="width: 100.0%; height: 100.0%;">Memorial, San Diego</div>`)[0];
+            popup_fd3b928dc5a54064a042133d2b2aaf67.setContent(html_8d0ffcc251594150ae3c46a409df7f0e);
+        
+
+        circle_marker_4431163a5fea4407bf4df0518cc37ccf.bindPopup(popup_fd3b928dc5a54064a042133d2b2aaf67)
+        ;
+
+        
+    
+    
+            var circle_marker_ae2df71fd9634b96aa6aee10d1211f3e = L.circleMarker(
+                [32.91225000000003, -117.15071999999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_0aec90a574ce49c08d6ea82151e991eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa562b9656554011830ec45ead920189 = $(`<div id="html_aa562b9656554011830ec45ead920189" style="width: 100.0%; height: 100.0%;">Middletown, San Diego</div>`)[0];
+            popup_0aec90a574ce49c08d6ea82151e991eb.setContent(html_aa562b9656554011830ec45ead920189);
+        
+
+        circle_marker_ae2df71fd9634b96aa6aee10d1211f3e.bindPopup(popup_0aec90a574ce49c08d6ea82151e991eb)
+        ;
+
+        
+    
+    
+            var circle_marker_f11c8aa18035454d9ef409de171fefc8 = L.circleMarker(
+                [32.893610000000024, -117.1334],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_c5809ac0901245fa81d57415c69ac5d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cbef2b0f39c84975b4f41dd9aa7ab97a = $(`<div id="html_cbef2b0f39c84975b4f41dd9aa7ab97a" style="width: 100.0%; height: 100.0%;">Midtown, San Diego</div>`)[0];
+            popup_c5809ac0901245fa81d57415c69ac5d4.setContent(html_cbef2b0f39c84975b4f41dd9aa7ab97a);
+        
+
+        circle_marker_f11c8aa18035454d9ef409de171fefc8.bindPopup(popup_c5809ac0901245fa81d57415c69ac5d4)
+        ;
+
+        
+    
+    
+            var circle_marker_37926f9a7b954db79ef2fbcf74f3b70a = L.circleMarker(
+                [32.772500000000036, -117.25121999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_ebe01cf258504a039271c9c14c20a571 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52cf3ff0c27d4264a6c253d5042bcac1 = $(`<div id="html_52cf3ff0c27d4264a6c253d5042bcac1" style="width: 100.0%; height: 100.0%;">Midway, San Diego</div>`)[0];
+            popup_ebe01cf258504a039271c9c14c20a571.setContent(html_52cf3ff0c27d4264a6c253d5042bcac1);
+        
+
+        circle_marker_37926f9a7b954db79ef2fbcf74f3b70a.bindPopup(popup_ebe01cf258504a039271c9c14c20a571)
+        ;
+
+        
+    
+    
+            var circle_marker_3728297e6860405aa85358cd5db316db = L.circleMarker(
+                [32.752500000000055, -117.18033999999994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_2faac21695bf4e6aac9960f82e329729 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e60a4be2f3d4ed7864b8c2405d417ca = $(`<div id="html_9e60a4be2f3d4ed7864b8c2405d417ca" style="width: 100.0%; height: 100.0%;">Mira Mesa, San Diego</div>`)[0];
+            popup_2faac21695bf4e6aac9960f82e329729.setContent(html_9e60a4be2f3d4ed7864b8c2405d417ca);
+        
+
+        circle_marker_3728297e6860405aa85358cd5db316db.bindPopup(popup_2faac21695bf4e6aac9960f82e329729)
+        ;
+
+        
+    
+    
+            var circle_marker_655b9ee752eb4739a56acf3274471581 = L.circleMarker(
+                [32.77976390209859, -117.09783523426066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_f92252dbdd244bf084a36f3b3a6cad5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41fec53ba0164f77b8e83ccd6cc9795c = $(`<div id="html_41fec53ba0164f77b8e83ccd6cc9795c" style="width: 100.0%; height: 100.0%;">Miramar, San Diego</div>`)[0];
+            popup_f92252dbdd244bf084a36f3b3a6cad5b.setContent(html_41fec53ba0164f77b8e83ccd6cc9795c);
+        
+
+        circle_marker_655b9ee752eb4739a56acf3274471581.bindPopup(popup_f92252dbdd244bf084a36f3b3a6cad5b)
+        ;
+
+        
+    
+    
+            var circle_marker_5226395994cd4c73ac194d11ed6965eb = L.circleMarker(
+                [32.769490000000076, -117.19006999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_948afa1491ba4e7fba3cc9b884588434 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c432bf1cd0e0456cb683237a39ba14d9 = $(`<div id="html_c432bf1cd0e0456cb683237a39ba14d9" style="width: 100.0%; height: 100.0%;">Mission Beach, San Diego</div>`)[0];
+            popup_948afa1491ba4e7fba3cc9b884588434.setContent(html_c432bf1cd0e0456cb683237a39ba14d9);
+        
+
+        circle_marker_5226395994cd4c73ac194d11ed6965eb.bindPopup(popup_948afa1491ba4e7fba3cc9b884588434)
+        ;
+
+        
+    
+    
+            var circle_marker_475cf8f8742f49bbbdf22bc7d7b6cc16 = L.circleMarker(
+                [32.71148000000005, -117.10892999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_0f9c1440b4764d1b8090c1ea98633ffa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e53a71236da5460289465c573f59c32e = $(`<div id="html_e53a71236da5460289465c573f59c32e" style="width: 100.0%; height: 100.0%;">Mission Hills, San Diego</div>`)[0];
+            popup_0f9c1440b4764d1b8090c1ea98633ffa.setContent(html_e53a71236da5460289465c573f59c32e);
+        
+
+        circle_marker_475cf8f8742f49bbbdf22bc7d7b6cc16.bindPopup(popup_0f9c1440b4764d1b8090c1ea98633ffa)
+        ;
+
+        
+    
+    
+            var circle_marker_a45ab3e572864ca8900e3650eb323b2f = L.circleMarker(
+                [32.703050000000076, -117.10808999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_ab92b518062f40cf93bb3e7069ab728f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f784e51189842a59f7aa8eccfe72d8f = $(`<div id="html_8f784e51189842a59f7aa8eccfe72d8f" style="width: 100.0%; height: 100.0%;">Mission Valley, San Diego</div>`)[0];
+            popup_ab92b518062f40cf93bb3e7069ab728f.setContent(html_8f784e51189842a59f7aa8eccfe72d8f);
+        
+
+        circle_marker_a45ab3e572864ca8900e3650eb323b2f.bindPopup(popup_ab92b518062f40cf93bb3e7069ab728f)
+        ;
+
+        
+    
+    
+            var circle_marker_2168ff97ef814968bea473f002d19632 = L.circleMarker(
+                [32.8018652730693, -117.04976073084468],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_3cfdb6e65975492098fc53b0969b328e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_869987329bb441b19e924efc6612961f = $(`<div id="html_869987329bb441b19e924efc6612961f" style="width: 100.0%; height: 100.0%;">Morena, San Diego</div>`)[0];
+            popup_3cfdb6e65975492098fc53b0969b328e.setContent(html_869987329bb441b19e924efc6612961f);
+        
+
+        circle_marker_2168ff97ef814968bea473f002d19632.bindPopup(popup_3cfdb6e65975492098fc53b0969b328e)
+        ;
+
+        
+    
+    
+            var circle_marker_aed89d82bc4f4cbbb7f9dd895758eb56 = L.circleMarker(
+                [32.576490000000035, -117.08865999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_a0027b0224ee44208da2ad5b90a39e6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c4ec80231ef4b1596479a219c7d5892 = $(`<div id="html_7c4ec80231ef4b1596479a219c7d5892" style="width: 100.0%; height: 100.0%;">Mount Hope, San Diego</div>`)[0];
+            popup_a0027b0224ee44208da2ad5b90a39e6e.setContent(html_7c4ec80231ef4b1596479a219c7d5892);
+        
+
+        circle_marker_aed89d82bc4f4cbbb7f9dd895758eb56.bindPopup(popup_a0027b0224ee44208da2ad5b90a39e6e)
+        ;
+
+        
+    
+    
+            var circle_marker_ccce5738e3564ffe9b133da2698244e1 = L.circleMarker(
+                [32.76314000000008, -117.11004999999994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_1bc8fc9c5d6145d295734af49ece2e22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aee0ee8c6a0d4bae9464d9c8156cd98c = $(`<div id="html_aee0ee8c6a0d4bae9464d9c8156cd98c" style="width: 100.0%; height: 100.0%;">Mountain View, San Diego</div>`)[0];
+            popup_1bc8fc9c5d6145d295734af49ece2e22.setContent(html_aee0ee8c6a0d4bae9464d9c8156cd98c);
+        
+
+        circle_marker_ccce5738e3564ffe9b133da2698244e1.bindPopup(popup_1bc8fc9c5d6145d295734af49ece2e22)
+        ;
+
+        
+    
+    
+            var circle_marker_8d05bab262264d15b825174fe3d6a984 = L.circleMarker(
+                [32.759833511114785, -117.14753159574695],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_a536936fbe8c4eeca9a66f0e12796999 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_748159998e8a41d783471208d709a3da = $(`<div id="html_748159998e8a41d783471208d709a3da" style="width: 100.0%; height: 100.0%;">Navajo, San Diego</div>`)[0];
+            popup_a536936fbe8c4eeca9a66f0e12796999.setContent(html_748159998e8a41d783471208d709a3da);
+        
+
+        circle_marker_8d05bab262264d15b825174fe3d6a984.bindPopup(popup_a536936fbe8c4eeca9a66f0e12796999)
+        ;
+
+        
+    
+    
+            var circle_marker_f40902fd5bd14f7981854f19f4fc3674 = L.circleMarker(
+                [32.74526000000003, -117.13234999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_574b2c7306474e8789c290fd475e3a76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3e8323b493f43f6986c61c1908a4b2f = $(`<div id="html_a3e8323b493f43f6986c61c1908a4b2f" style="width: 100.0%; height: 100.0%;">Nestor, San Diego</div>`)[0];
+            popup_574b2c7306474e8789c290fd475e3a76.setContent(html_a3e8323b493f43f6986c61c1908a4b2f);
+        
+
+        circle_marker_f40902fd5bd14f7981854f19f4fc3674.bindPopup(popup_574b2c7306474e8789c290fd475e3a76)
+        ;
+
+        
+    
+    
+            var circle_marker_6dbdae86a6bb4eda946ed81092a8629b = L.circleMarker(
+                [32.73444000000006, -117.07741999999996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_0031cbc60edf463d9efe4ace2a3433ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14fb97709c524e43aa08d2c2319132c0 = $(`<div id="html_14fb97709c524e43aa08d2c2319132c0" style="width: 100.0%; height: 100.0%;">Normal Heights, San Diego</div>`)[0];
+            popup_0031cbc60edf463d9efe4ace2a3433ce.setContent(html_14fb97709c524e43aa08d2c2319132c0);
+        
+
+        circle_marker_6dbdae86a6bb4eda946ed81092a8629b.bindPopup(popup_0031cbc60edf463d9efe4ace2a3433ce)
+        ;
+
+        
+    
+    
+            var circle_marker_afe5c8fb6cde42188578d77dcf3103a7 = L.circleMarker(
+                [32.75711975813592, -117.21978062864233],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_22835b2f8f8e44829d9f5913b574f6e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a47a3aa870847b9acd8926b84136bc4 = $(`<div id="html_9a47a3aa870847b9acd8926b84136bc4" style="width: 100.0%; height: 100.0%;">North City, San Diego</div>`)[0];
+            popup_22835b2f8f8e44829d9f5913b574f6e2.setContent(html_9a47a3aa870847b9acd8926b84136bc4);
+        
+
+        circle_marker_afe5c8fb6cde42188578d77dcf3103a7.bindPopup(popup_22835b2f8f8e44829d9f5913b574f6e2)
+        ;
+
+        
+    
+    
+            var circle_marker_531e7c6dbb334c949cf2c547ffdfa024 = L.circleMarker(
+                [32.744530000000054, -117.24779999999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_c27231224ba246fc8376f258e83ab939 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecbcae276bd64d5b94952ade72bbe68f = $(`<div id="html_ecbcae276bd64d5b94952ade72bbe68f" style="width: 100.0%; height: 100.0%;">North Park, San Diego</div>`)[0];
+            popup_c27231224ba246fc8376f258e83ab939.setContent(html_ecbcae276bd64d5b94952ade72bbe68f);
+        
+
+        circle_marker_531e7c6dbb334c949cf2c547ffdfa024.bindPopup(popup_c27231224ba246fc8376f258e83ab939)
+        ;
+
+        
+    
+    
+            var circle_marker_541ad13b4cd54d5db4454f3f7d26fa25 = L.circleMarker(
+                [32.5686757929229, -117.01410017073944],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_70a0613df92340e084dafeab4ad65155 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef5816c499134d48a81194361b85f827 = $(`<div id="html_ef5816c499134d48a81194361b85f827" style="width: 100.0%; height: 100.0%;">Oak Park, San Diego</div>`)[0];
+            popup_70a0613df92340e084dafeab4ad65155.setContent(html_ef5816c499134d48a81194361b85f827);
+        
+
+        circle_marker_541ad13b4cd54d5db4454f3f7d26fa25.bindPopup(popup_70a0613df92340e084dafeab4ad65155)
+        ;
+
+        
+    
+    
+            var circle_marker_eae531294a6a4e8bb1eb08dad8cb25e9 = L.circleMarker(
+                [32.75810000000007, -117.19746999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_aca840486da0417d8d2785bba9f67636 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e02126cda994e8dae2b1c4ee33baf78 = $(`<div id="html_8e02126cda994e8dae2b1c4ee33baf78" style="width: 100.0%; height: 100.0%;">Ocean Beach Antique District</div>`)[0];
+            popup_aca840486da0417d8d2785bba9f67636.setContent(html_8e02126cda994e8dae2b1c4ee33baf78);
+        
+
+        circle_marker_eae531294a6a4e8bb1eb08dad8cb25e9.bindPopup(popup_aca840486da0417d8d2785bba9f67636)
+        ;
+
+        
+    
+    
+            var circle_marker_54b3d0a068aa46c7a0d7c2e3e6d91912 = L.circleMarker(
+                [32.57923000000005, -117.05804999999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_d716298981544798b288d6503ceb373c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63a8bfccdf3e41df864387b2fcdc584f = $(`<div id="html_63a8bfccdf3e41df864387b2fcdc584f" style="width: 100.0%; height: 100.0%;">Ocean Beach, San Diego</div>`)[0];
+            popup_d716298981544798b288d6503ceb373c.setContent(html_63a8bfccdf3e41df864387b2fcdc584f);
+        
+
+        circle_marker_54b3d0a068aa46c7a0d7c2e3e6d91912.bindPopup(popup_d716298981544798b288d6503ceb373c)
+        ;
+
+        
+    
+    
+            var circle_marker_223f4522aada4175a1761071fab0068f = L.circleMarker(
+                [32.56751000000003, -116.96242999999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_ff43fee2f7264877a81bb65178eb285b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99cc32334525485a8c1c57265c0f3e4d = $(`<div id="html_99cc32334525485a8c1c57265c0f3e4d" style="width: 100.0%; height: 100.0%;">Ocean View Hills, San Diego</div>`)[0];
+            popup_ff43fee2f7264877a81bb65178eb285b.setContent(html_99cc32334525485a8c1c57265c0f3e4d);
+        
+
+        circle_marker_223f4522aada4175a1761071fab0068f.bindPopup(popup_ff43fee2f7264877a81bb65178eb285b)
+        ;
+
+        
+    
+    
+            var circle_marker_942893819220430a8b31b2b3d6bc410d = L.circleMarker(
+                [32.801390000000026, -117.24135999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_e1f7afc3fdb84a8eb94d59a32bfcd1a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1c6382d15b74237b71b067ef47b41f5 = $(`<div id="html_a1c6382d15b74237b71b067ef47b41f5" style="width: 100.0%; height: 100.0%;">Old Town, San Diego</div>`)[0];
+            popup_e1f7afc3fdb84a8eb94d59a32bfcd1a3.setContent(html_a1c6382d15b74237b71b067ef47b41f5);
+        
+
+        circle_marker_942893819220430a8b31b2b3d6bc410d.bindPopup(popup_e1f7afc3fdb84a8eb94d59a32bfcd1a3)
+        ;
+
+        
+    
+    
+            var circle_marker_2fe015b434364f5eb03b8aeb4c0b03d4 = L.circleMarker(
+                [32.96415152567389, -117.19224452567389],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_b1989dd67312475c8ca5ebea72989ccb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d99176f08d644f47abeda1a55782c4d2 = $(`<div id="html_d99176f08d644f47abeda1a55782c4d2" style="width: 100.0%; height: 100.0%;">Otay Mesa West, San Diego</div>`)[0];
+            popup_b1989dd67312475c8ca5ebea72989ccb.setContent(html_d99176f08d644f47abeda1a55782c4d2);
+        
+
+        circle_marker_2fe015b434364f5eb03b8aeb4c0b03d4.bindPopup(popup_b1989dd67312475c8ca5ebea72989ccb)
+        ;
+
+        
+    
+    
+            var circle_marker_f23f762c13674bb7ac45ffe1a6cd40b4 = L.circleMarker(
+                [32.584250000000054, -117.08406999999994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_d17008cd0e164cc7aa293117fd374a91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e4f8a0a183245e68399d01b4a709c28 = $(`<div id="html_0e4f8a0a183245e68399d01b4a709c28" style="width: 100.0%; height: 100.0%;">Otay Mesa, San Diego</div>`)[0];
+            popup_d17008cd0e164cc7aa293117fd374a91.setContent(html_0e4f8a0a183245e68399d01b4a709c28);
+        
+
+        circle_marker_f23f762c13674bb7ac45ffe1a6cd40b4.bindPopup(popup_d17008cd0e164cc7aa293117fd374a91)
+        ;
+
+        
+    
+    
+            var circle_marker_38f3e44c3fb64eb38cb7df4dc78d7beb = L.circleMarker(
+                [32.68130000000008, -117.06004999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_cd8ae99b610847db9ce0664381dafe35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46783d74f96d4c6e8c20e756b0bd3cf4 = $(`<div id="html_46783d74f96d4c6e8c20e756b0bd3cf4" style="width: 100.0%; height: 100.0%;">Pacific Beach, San Diego</div>`)[0];
+            popup_cd8ae99b610847db9ce0664381dafe35.setContent(html_46783d74f96d4c6e8c20e756b0bd3cf4);
+        
+
+        circle_marker_38f3e44c3fb64eb38cb7df4dc78d7beb.bindPopup(popup_cd8ae99b610847db9ce0664381dafe35)
+        ;
+
+        
+    
+    
+            var circle_marker_8afc21e4c4234c2f92d87d8e87d315c0 = L.circleMarker(
+                [32.733040450711826, -117.24948445835558],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_383ecf891478463aa088fb1bd56b32af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c03ed3657c3d4510bf8d8c629fcb4013 = $(`<div id="html_c03ed3657c3d4510bf8d8c629fcb4013" style="width: 100.0%; height: 100.0%;">Pacific Highlands Ranch, San Diego</div>`)[0];
+            popup_383ecf891478463aa088fb1bd56b32af.setContent(html_c03ed3657c3d4510bf8d8c629fcb4013);
+        
+
+        circle_marker_8afc21e4c4234c2f92d87d8e87d315c0.bindPopup(popup_383ecf891478463aa088fb1bd56b32af)
+        ;
+
+        
+    
+    
+            var circle_marker_c72eace05fa4430abb6ad81c31f3a03d = L.circleMarker(
+                [32.71231000000006, -117.24824999999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_961d2019a59b4b4d8a7fba350589e40a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abd30578092a4740a4b2f056211e071d = $(`<div id="html_abd30578092a4740a4b2f056211e071d" style="width: 100.0%; height: 100.0%;">Palm City, San Diego</div>`)[0];
+            popup_961d2019a59b4b4d8a7fba350589e40a.setContent(html_abd30578092a4740a4b2f056211e071d);
+        
+
+        circle_marker_c72eace05fa4430abb6ad81c31f3a03d.bindPopup(popup_961d2019a59b4b4d8a7fba350589e40a)
+        ;
+
+        
+    
+    
+            var circle_marker_8540573c611041cc951df4aaac0f45c8 = L.circleMarker(
+                [33.02444000000003, -117.08482999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_0051fd88387b466d85edee9f0920360e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5507d962b6084883b28903a2adac72fd = $(`<div id="html_5507d962b6084883b28903a2adac72fd" style="width: 100.0%; height: 100.0%;">Paradise Hills, San Diego</div>`)[0];
+            popup_0051fd88387b466d85edee9f0920360e.setContent(html_5507d962b6084883b28903a2adac72fd);
+        
+
+        circle_marker_8540573c611041cc951df4aaac0f45c8.bindPopup(popup_0051fd88387b466d85edee9f0920360e)
+        ;
+
+        
+    
+    
+            var circle_marker_9d72aacc6526406b90010e1e2320b112 = L.circleMarker(
+                [32.92718000000008, -117.01959999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_f1fd1f32b8514b4398b0ff5cb897e60a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbe0f9c2ecac4c0da0fa6420db77604b = $(`<div id="html_bbe0f9c2ecac4c0da0fa6420db77604b" style="width: 100.0%; height: 100.0%;">Point Loma Heights, San Diego</div>`)[0];
+            popup_f1fd1f32b8514b4398b0ff5cb897e60a.setContent(html_bbe0f9c2ecac4c0da0fa6420db77604b);
+        
+
+        circle_marker_9d72aacc6526406b90010e1e2320b112.bindPopup(popup_f1fd1f32b8514b4398b0ff5cb897e60a)
+        ;
+
+        
+    
+    
+            var circle_marker_cba3a3a31d094df2ab6b62e72964aaf8 = L.circleMarker(
+                [32.96160000000003, -117.12845999999996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_3368022bd8754628aa62aab37114bfaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_215a9b9440b14479a525d1f28d151967 = $(`<div id="html_215a9b9440b14479a525d1f28d151967" style="width: 100.0%; height: 100.0%;">Point Loma, San Diego</div>`)[0];
+            popup_3368022bd8754628aa62aab37114bfaa.setContent(html_215a9b9440b14479a525d1f28d151967);
+        
+
+        circle_marker_cba3a3a31d094df2ab6b62e72964aaf8.bindPopup(popup_3368022bd8754628aa62aab37114bfaa)
+        ;
+
+        
+    
+    
+            var circle_marker_a1124da049db4ea18a1df885cbb2fe77 = L.circleMarker(
+                [32.73767980247068, -117.16311364799108],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_bce3842ce68a4756915bca2824c66982 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3dff4f2818e4f5dba5c9b6cbf992223 = $(`<div id="html_b3dff4f2818e4f5dba5c9b6cbf992223" style="width: 100.0%; height: 100.0%;">Rancho Bernardo, San Diego</div>`)[0];
+            popup_bce3842ce68a4756915bca2824c66982.setContent(html_b3dff4f2818e4f5dba5c9b6cbf992223);
+        
+
+        circle_marker_a1124da049db4ea18a1df885cbb2fe77.bindPopup(popup_bce3842ce68a4756915bca2824c66982)
+        ;
+
+        
+    
+    
+            var circle_marker_29fd99bfef24401a83440baa5df51a4d = L.circleMarker(
+                [32.76342000000005, -117.06023999999996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_821c020182c34badb391884a7e1295fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a12530ff28aa487fb742cd792241ffcc = $(`<div id="html_a12530ff28aa487fb742cd792241ffcc" style="width: 100.0%; height: 100.0%;">Rancho Encantada, San Diego</div>`)[0];
+            popup_821c020182c34badb391884a7e1295fc.setContent(html_a12530ff28aa487fb742cd792241ffcc);
+        
+
+        circle_marker_29fd99bfef24401a83440baa5df51a4d.bindPopup(popup_821c020182c34badb391884a7e1295fc)
+        ;
+
+        
+    
+    
+            var circle_marker_04f9078faec14d96849e1b8a40751867 = L.circleMarker(
+                [32.76111000000003, -117.05928999999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_a97451731b3348059e97a5a1c5242523 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2bcda2866ba4804841423f5bd6787b0 = $(`<div id="html_e2bcda2866ba4804841423f5bd6787b0" style="width: 100.0%; height: 100.0%;">Rancho Peñasquitos, San Diego</div>`)[0];
+            popup_a97451731b3348059e97a5a1c5242523.setContent(html_e2bcda2866ba4804841423f5bd6787b0);
+        
+
+        circle_marker_04f9078faec14d96849e1b8a40751867.bindPopup(popup_a97451731b3348059e97a5a1c5242523)
+        ;
+
+        
+    
+    
+            var circle_marker_01b6931642d649cba960e18fa36a24b4 = L.circleMarker(
+                [32.72630000000004, -117.23768999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_b9ae39b213e0421c8272213987a2551d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50a911bdba904ae0b66c789148f4e87c = $(`<div id="html_50a911bdba904ae0b66c789148f4e87c" style="width: 100.0%; height: 100.0%;">Redwood Village, San Diego</div>`)[0];
+            popup_b9ae39b213e0421c8272213987a2551d.setContent(html_50a911bdba904ae0b66c789148f4e87c);
+        
+
+        circle_marker_01b6931642d649cba960e18fa36a24b4.bindPopup(popup_b9ae39b213e0421c8272213987a2551d)
+        ;
+
+        
+    
+    
+            var circle_marker_b3dce9fd2981449895240f4fe0051092 = L.circleMarker(
+                [32.94473000000005, -117.09231999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_7c71e64d826f4f3da1a782a15e7e0a57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59ce07a82eaa4617a2832e93d3dfa9f7 = $(`<div id="html_59ce07a82eaa4617a2832e93d3dfa9f7" style="width: 100.0%; height: 100.0%;">Rolando Park, San Diego</div>`)[0];
+            popup_7c71e64d826f4f3da1a782a15e7e0a57.setContent(html_59ce07a82eaa4617a2832e93d3dfa9f7);
+        
+
+        circle_marker_b3dce9fd2981449895240f4fe0051092.bindPopup(popup_7c71e64d826f4f3da1a782a15e7e0a57)
+        ;
+
+        
+    
+    
+            var circle_marker_c4b3b1d794d34c459db1b593207e8758 = L.circleMarker(
+                [32.80373000000003, -117.05103999999994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_79e796917e64495b986fb80aeb42fe4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ecaafc9b8c34390aba6551807ceaf45 = $(`<div id="html_3ecaafc9b8c34390aba6551807ceaf45" style="width: 100.0%; height: 100.0%;">Rolando, San Diego</div>`)[0];
+            popup_79e796917e64495b986fb80aeb42fe4a.setContent(html_3ecaafc9b8c34390aba6551807ceaf45);
+        
+
+        circle_marker_c4b3b1d794d34c459db1b593207e8758.bindPopup(popup_79e796917e64495b986fb80aeb42fe4a)
+        ;
+
+        
+    
+    
+            var circle_marker_a0ff9bc68ca14008bd51f4fddb65a20a = L.circleMarker(
+                [33.09882620030908, -117.01863309551845],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_b9d858baf6cd4c33957f0eca287c5ca0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2be81850f8aa4332899173dd5706bc7c = $(`<div id="html_2be81850f8aa4332899173dd5706bc7c" style="width: 100.0%; height: 100.0%;">Roseville-Fleetridge, San Diego</div>`)[0];
+            popup_b9d858baf6cd4c33957f0eca287c5ca0.setContent(html_2be81850f8aa4332899173dd5706bc7c);
+        
+
+        circle_marker_a0ff9bc68ca14008bd51f4fddb65a20a.bindPopup(popup_b9d858baf6cd4c33957f0eca287c5ca0)
+        ;
+
+        
+    
+    
+            var circle_marker_f7bd9a2b157e45feb1f44b8e5f30994d = L.circleMarker(
+                [32.549005816817406, -117.03504016002576],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_491238121e924aa095726bfbc8e1b65b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_797852dbd4414fec89292e590622db28 = $(`<div id="html_797852dbd4414fec89292e590622db28" style="width: 100.0%; height: 100.0%;">Sabre Springs, San Diego</div>`)[0];
+            popup_491238121e924aa095726bfbc8e1b65b.setContent(html_797852dbd4414fec89292e590622db28);
+        
+
+        circle_marker_f7bd9a2b157e45feb1f44b8e5f30994d.bindPopup(popup_491238121e924aa095726bfbc8e1b65b)
+        ;
+
+        
+    
+    
+            var circle_marker_512721096fae4f8484345ef62c96c8ee = L.circleMarker(
+                [32.79598000000004, -117.12493999999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_588d2142589c4bc28fdba7b8d0aab532 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40e52e3d024a456ebed2f9a8ead67926 = $(`<div id="html_40e52e3d024a456ebed2f9a8ead67926" style="width: 100.0%; height: 100.0%;">San Carlos, San Diego</div>`)[0];
+            popup_588d2142589c4bc28fdba7b8d0aab532.setContent(html_40e52e3d024a456ebed2f9a8ead67926);
+        
+
+        circle_marker_512721096fae4f8484345ef62c96c8ee.bindPopup(popup_588d2142589c4bc28fdba7b8d0aab532)
+        ;
+
+        
+    
+    
+            var circle_marker_422aad9af7ee4b419e403ea0227e7d24 = L.circleMarker(
+                [32.68665000000004, -117.10696999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_5654d0351ead44a2b37469285ba56659 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_119b06c903aa4ea097472b9c2c4ea21d = $(`<div id="html_119b06c903aa4ea097472b9c2c4ea21d" style="width: 100.0%; height: 100.0%;">San Pasqual Valley, San Diego</div>`)[0];
+            popup_5654d0351ead44a2b37469285ba56659.setContent(html_119b06c903aa4ea097472b9c2c4ea21d);
+        
+
+        circle_marker_422aad9af7ee4b419e403ea0227e7d24.bindPopup(popup_5654d0351ead44a2b37469285ba56659)
+        ;
+
+        
+    
+    
+            var circle_marker_603709813feb4bb0b601537d2a78b370 = L.circleMarker(
+                [32.71599981409821, -117.22395468262314],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_1bea3f25194e4c87bf0097f93f8ec1d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fd13c8b7f474876b8921c8eb11b3628 = $(`<div id="html_9fd13c8b7f474876b8921c8eb11b3628" style="width: 100.0%; height: 100.0%;">San Ysidro, San Diego</div>`)[0];
+            popup_1bea3f25194e4c87bf0097f93f8ec1d5.setContent(html_9fd13c8b7f474876b8921c8eb11b3628);
+        
+
+        circle_marker_603709813feb4bb0b601537d2a78b370.bindPopup(popup_1bea3f25194e4c87bf0097f93f8ec1d5)
+        ;
+
+        
+    
+    
+            var circle_marker_b23653ec206443008ce184f487e4cf8c = L.circleMarker(
+                [32.711580000000026, -117.14181999999994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_ca2695512bdb48cb8620a1a97c8e8638 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c610b0d892a4fad83681ffb0b134f8f = $(`<div id="html_8c610b0d892a4fad83681ffb0b134f8f" style="width: 100.0%; height: 100.0%;">Serra Mesa, San Diego</div>`)[0];
+            popup_ca2695512bdb48cb8620a1a97c8e8638.setContent(html_8c610b0d892a4fad83681ffb0b134f8f);
+        
+
+        circle_marker_b23653ec206443008ce184f487e4cf8c.bindPopup(popup_ca2695512bdb48cb8620a1a97c8e8638)
+        ;
+
+        
+    
+    
+            var circle_marker_a12bc434c30843b880d2298a05a87ace = L.circleMarker(
+                [32.70748000000003, -117.04618999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_e33600934595415d8de29071f7ade9d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_527744666541430f86308f4db1d38051 = $(`<div id="html_527744666541430f86308f4db1d38051" style="width: 100.0%; height: 100.0%;">Shelltown, San Diego</div>`)[0];
+            popup_e33600934595415d8de29071f7ade9d2.setContent(html_527744666541430f86308f4db1d38051);
+        
+
+        circle_marker_a12bc434c30843b880d2298a05a87ace.bindPopup(popup_e33600934595415d8de29071f7ade9d2)
+        ;
+
+        
+    
+    
+            var circle_marker_cc91d4a6e30549129a1efc832a52aeba = L.circleMarker(
+                [32.90498000000002, -117.21423999999996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_6f814c10888145e4b3a3f51c64174058 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_403e552fa65b44968d6e8f63cc3f8442 = $(`<div id="html_403e552fa65b44968d6e8f63cc3f8442" style="width: 100.0%; height: 100.0%;">Shelter Island, San Diego</div>`)[0];
+            popup_6f814c10888145e4b3a3f51c64174058.setContent(html_403e552fa65b44968d6e8f63cc3f8442);
+        
+
+        circle_marker_cc91d4a6e30549129a1efc832a52aeba.bindPopup(popup_6f814c10888145e4b3a3f51c64174058)
+        ;
+
+        
+    
+    
+            var circle_marker_522d0a1050d845399bd9dcda967e9631 = L.circleMarker(
+                [32.89169000000004, -117.19519999999994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_3e577daaf6d146cf881af0056aee7807 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8a2191f2fd84a71989444ba293b36cc = $(`<div id="html_c8a2191f2fd84a71989444ba293b36cc" style="width: 100.0%; height: 100.0%;">Sherman Heights, San Diego</div>`)[0];
+            popup_3e577daaf6d146cf881af0056aee7807.setContent(html_c8a2191f2fd84a71989444ba293b36cc);
+        
+
+        circle_marker_522d0a1050d845399bd9dcda967e9631.bindPopup(popup_3e577daaf6d146cf881af0056aee7807)
+        ;
+
+        
+    
+    
+            var circle_marker_9c4f6b85b29c4c33bb7661c9c9936920 = L.circleMarker(
+                [32.72729000000004, -117.12960999999996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_dee221a3ab6f46358dbbf6328a3c8d34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44345a36ab6f4e938d84b97117dd07cc = $(`<div id="html_44345a36ab6f4e938d84b97117dd07cc" style="width: 100.0%; height: 100.0%;">Skyline, San Diego</div>`)[0];
+            popup_dee221a3ab6f46358dbbf6328a3c8d34.setContent(html_44345a36ab6f4e938d84b97117dd07cc);
+        
+
+        circle_marker_9c4f6b85b29c4c33bb7661c9c9936920.bindPopup(popup_dee221a3ab6f46358dbbf6328a3c8d34)
+        ;
+
+        
+    
+    
+            var circle_marker_fefb38208ccf4dbdbe2df6a96e09deac = L.circleMarker(
+                [32.58378000000005, -117.09664999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_f7773c4f2f47486ea6239d2d96656e8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c4df1582ea64048a33fef04a4c717c7 = $(`<div id="html_0c4df1582ea64048a33fef04a4c717c7" style="width: 100.0%; height: 100.0%;">Sorrento Mesa, San Diego</div>`)[0];
+            popup_f7773c4f2f47486ea6239d2d96656e8c.setContent(html_0c4df1582ea64048a33fef04a4c717c7);
+        
+
+        circle_marker_fefb38208ccf4dbdbe2df6a96e09deac.bindPopup(popup_f7773c4f2f47486ea6239d2d96656e8c)
+        ;
+
+        
+    
+    
+            var circle_marker_12d7ba178c5d4696b7ef9391ddc4f6ea = L.circleMarker(
+                [32.69190000000003, -117.11240999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_6cbb4d1ee5884666b7ad642473886007 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f708b9bb21840f7908e35a154c5fea6 = $(`<div id="html_8f708b9bb21840f7908e35a154c5fea6" style="width: 100.0%; height: 100.0%;">Sorrento Valley, San Diego</div>`)[0];
+            popup_6cbb4d1ee5884666b7ad642473886007.setContent(html_8f708b9bb21840f7908e35a154c5fea6);
+        
+
+        circle_marker_12d7ba178c5d4696b7ef9391ddc4f6ea.bindPopup(popup_6cbb4d1ee5884666b7ad642473886007)
+        ;
+
+        
+    
+    
+            var circle_marker_b0972a25d9c14a40a24ff15ed5568230 = L.circleMarker(
+                [32.67886179888846, -117.1098764094998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_bd0d6fe293e64b1888ffba162618affe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c3d7ce88f5c4ff88257fb9a65654aa1 = $(`<div id="html_4c3d7ce88f5c4ff88257fb9a65654aa1" style="width: 100.0%; height: 100.0%;">South Park, San Diego</div>`)[0];
+            popup_bd0d6fe293e64b1888ffba162618affe.setContent(html_4c3d7ce88f5c4ff88257fb9a65654aa1);
+        
+
+        circle_marker_b0972a25d9c14a40a24ff15ed5568230.bindPopup(popup_bd0d6fe293e64b1888ffba162618affe)
+        ;
+
+        
+    
+    
+            var circle_marker_fe4e774e7bd7405ead2a2b6c1b90b1a3 = L.circleMarker(
+                [32.71568000000008, -117.16170999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_75f78d5dc6b74a3380ea3e852483ae7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_641bb98a9cdf4632b1679f5415fdcebf = $(`<div id="html_641bb98a9cdf4632b1679f5415fdcebf" style="width: 100.0%; height: 100.0%;">South San Diego</div>`)[0];
+            popup_75f78d5dc6b74a3380ea3e852483ae7f.setContent(html_641bb98a9cdf4632b1679f5415fdcebf);
+        
+
+        circle_marker_fe4e774e7bd7405ead2a2b6c1b90b1a3.bindPopup(popup_75f78d5dc6b74a3380ea3e852483ae7f)
+        ;
+
+        
+    
+    
+            var circle_marker_a1413c02cbbd4990b214c2d9195806ec = L.circleMarker(
+                [32.71176000000003, -117.12247999999994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_3f22fe144fa04bccb49c0ac865a2eec9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9212562172234eb9957e8a0e9a35f4c8 = $(`<div id="html_9212562172234eb9957e8a0e9a35f4c8" style="width: 100.0%; height: 100.0%;">Southcrest, San Diego</div>`)[0];
+            popup_3f22fe144fa04bccb49c0ac865a2eec9.setContent(html_9212562172234eb9957e8a0e9a35f4c8);
+        
+
+        circle_marker_a1413c02cbbd4990b214c2d9195806ec.bindPopup(popup_3f22fe144fa04bccb49c0ac865a2eec9)
+        ;
+
+        
+    
+    
+            var circle_marker_7ff23b29091545c6aeb2ce6806cd5440 = L.circleMarker(
+                [32.728500000000054, -117.25001999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_02f3090d6809445f977bed4a07e07ea3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_265eaf66e246454aa12a70e3345283aa = $(`<div id="html_265eaf66e246454aa12a70e3345283aa" style="width: 100.0%; height: 100.0%;">Southeast San Diego</div>`)[0];
+            popup_02f3090d6809445f977bed4a07e07ea3.setContent(html_265eaf66e246454aa12a70e3345283aa);
+        
+
+        circle_marker_7ff23b29091545c6aeb2ce6806cd5440.bindPopup(popup_02f3090d6809445f977bed4a07e07ea3)
+        ;
+
+        
+    
+    
+            var circle_marker_891d467d331e4b7e80ea23a30665af42 = L.circleMarker(
+                [32.73768000000007, -117.09782999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_18bee413d863464088fc04aed0a6b03b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a57b1d32890342d484a91ac5e8d220ff = $(`<div id="html_a57b1d32890342d484a91ac5e8d220ff" style="width: 100.0%; height: 100.0%;">Stingaree, San Diego</div>`)[0];
+            popup_18bee413d863464088fc04aed0a6b03b.setContent(html_a57b1d32890342d484a91ac5e8d220ff);
+        
+
+        circle_marker_891d467d331e4b7e80ea23a30665af42.bindPopup(popup_18bee413d863464088fc04aed0a6b03b)
+        ;
+
+        
+    
+    
+            var circle_marker_5e1cbec4f24f46ee9300553ec853a067 = L.circleMarker(
+                [32.76240000000007, -117.08943999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_09d7be5b210b4c9db3a598842d8bbf53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a45f9f98a680401db97badcf840ffb39 = $(`<div id="html_a45f9f98a680401db97badcf840ffb39" style="width: 100.0%; height: 100.0%;">Stockton, San Diego</div>`)[0];
+            popup_09d7be5b210b4c9db3a598842d8bbf53.setContent(html_a45f9f98a680401db97badcf840ffb39);
+        
+
+        circle_marker_5e1cbec4f24f46ee9300553ec853a067.bindPopup(popup_09d7be5b210b4c9db3a598842d8bbf53)
+        ;
+
+        
+    
+    
+            var circle_marker_ac76962aa0984c79b4bc71fc5b6b66ff = L.circleMarker(
+                [32.834700000000055, -117.07992999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_a1d4df7dc5874bbabd68c03ab2447238 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5b3ce1628f342038da25d30dcb0226a = $(`<div id="html_d5b3ce1628f342038da25d30dcb0226a" style="width: 100.0%; height: 100.0%;">Sunset Cliffs, San Diego</div>`)[0];
+            popup_a1d4df7dc5874bbabd68c03ab2447238.setContent(html_d5b3ce1628f342038da25d30dcb0226a);
+        
+
+        circle_marker_ac76962aa0984c79b4bc71fc5b6b66ff.bindPopup(popup_a1d4df7dc5874bbabd68c03ab2447238)
+        ;
+
+        
+    
+    
+            var circle_marker_f626c2c888dc49b291ec6d87a8bec661 = L.circleMarker(
+                [32.544800000000066, -117.07252999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_05fab4a15bf44b03b5ae351f9e76b596 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0faa1b011aea423c8ef0a7205219a3e8 = $(`<div id="html_0faa1b011aea423c8ef0a7205219a3e8" style="width: 100.0%; height: 100.0%;">Swan Canyon, San Diego</div>`)[0];
+            popup_05fab4a15bf44b03b5ae351f9e76b596.setContent(html_0faa1b011aea423c8ef0a7205219a3e8);
+        
+
+        circle_marker_f626c2c888dc49b291ec6d87a8bec661.bindPopup(popup_05fab4a15bf44b03b5ae351f9e76b596)
+        ;
+
+        
+    
+    
+            var circle_marker_845bc226dd89454188817b55aa5d45f3 = L.circleMarker(
+                [32.966860000000054, -117.15419999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_fd477754b4844fcba0e0013bd23a0ea7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8f759241bc549b591ad69d54d36eddf = $(`<div id="html_e8f759241bc549b591ad69d54d36eddf" style="width: 100.0%; height: 100.0%;">Talmadge, San Diego</div>`)[0];
+            popup_fd477754b4844fcba0e0013bd23a0ea7.setContent(html_e8f759241bc549b591ad69d54d36eddf);
+        
+
+        circle_marker_845bc226dd89454188817b55aa5d45f3.bindPopup(popup_fd477754b4844fcba0e0013bd23a0ea7)
+        ;
+
+        
+    
+    
+            var circle_marker_f1bfc65e84a442b98a26374fca335056 = L.circleMarker(
+                [32.96439, -117.23153849999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_419d2ca397a84d169cdb645ca4056d62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9ac7749a7f3447ab2e7365254b27a77 = $(`<div id="html_f9ac7749a7f3447ab2e7365254b27a77" style="width: 100.0%; height: 100.0%;">Tierrasanta, San Diego</div>`)[0];
+            popup_419d2ca397a84d169cdb645ca4056d62.setContent(html_f9ac7749a7f3447ab2e7365254b27a77);
+        
+
+        circle_marker_f1bfc65e84a442b98a26374fca335056.bindPopup(popup_419d2ca397a84d169cdb645ca4056d62)
+        ;
+
+        
+    
+    
+            var circle_marker_2a1fc392fc034a809547cdaa515f5072 = L.circleMarker(
+                [32.86962831108491, -117.242390687862],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_74cf8fc0c98148e5abea9e90f5a49f75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa3ae78ddf5e4f3ea17db13e87627977 = $(`<div id="html_aa3ae78ddf5e4f3ea17db13e87627977" style="width: 100.0%; height: 100.0%;">Tijuana River Valley, San Diego</div>`)[0];
+            popup_74cf8fc0c98148e5abea9e90f5a49f75.setContent(html_aa3ae78ddf5e4f3ea17db13e87627977);
+        
+
+        circle_marker_2a1fc392fc034a809547cdaa515f5072.bindPopup(popup_74cf8fc0c98148e5abea9e90f5a49f75)
+        ;
+
+        
+    
+    
+            var circle_marker_6132efc7f77a421ebc6e99882c0fb69a = L.circleMarker(
+                [32.71568000000008, -117.16170999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_2af4e26d9f4542318285eb2ad47424a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_803b451882df4e4ba791551b1b1506d8 = $(`<div id="html_803b451882df4e4ba791551b1b1506d8" style="width: 100.0%; height: 100.0%;">Torrey Highlands, San Diego</div>`)[0];
+            popup_2af4e26d9f4542318285eb2ad47424a5.setContent(html_803b451882df4e4ba791551b1b1506d8);
+        
+
+        circle_marker_6132efc7f77a421ebc6e99882c0fb69a.bindPopup(popup_2af4e26d9f4542318285eb2ad47424a5)
+        ;
+
+        
+    
+    
+            var circle_marker_bbd40f62e91d462a91fa0647d15d26c5 = L.circleMarker(
+                [32.851440000000025, -117.21638999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_b3cc109f193c42669be1909a34d83c30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0a417f8e222486e97ebb3dfd6af5dab = $(`<div id="html_e0a417f8e222486e97ebb3dfd6af5dab" style="width: 100.0%; height: 100.0%;">Torrey Hills, San Diego</div>`)[0];
+            popup_b3cc109f193c42669be1909a34d83c30.setContent(html_e0a417f8e222486e97ebb3dfd6af5dab);
+        
+
+        circle_marker_bbd40f62e91d462a91fa0647d15d26c5.bindPopup(popup_b3cc109f193c42669be1909a34d83c30)
+        ;
+
+        
+    
+    
+            var circle_marker_646478fc92c045e0b6dcb41466af5eac = L.circleMarker(
+                [32.759070000000065, -117.14815999999996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_9fbab46f23234129835fdccd434f1b1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2874af91d9e346b5b0cef1640dcb06be = $(`<div id="html_2874af91d9e346b5b0cef1640dcb06be" style="width: 100.0%; height: 100.0%;">Torrey Pines, San Diego</div>`)[0];
+            popup_9fbab46f23234129835fdccd434f1b1a.setContent(html_2874af91d9e346b5b0cef1640dcb06be);
+        
+
+        circle_marker_646478fc92c045e0b6dcb41466af5eac.bindPopup(popup_9fbab46f23234129835fdccd434f1b1a)
+        ;
+
+        
+    
+    
+            var circle_marker_b42f081be7c442ecb81602494ffaef86 = L.circleMarker(
+                [32.69882000000007, -117.07815999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_d9a1e987da874cb394c80c763e070870 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2248e39107d04067b1a21be2e99d8612 = $(`<div id="html_2248e39107d04067b1a21be2e99d8612" style="width: 100.0%; height: 100.0%;">Tri-City, San Diego County, California</div>`)[0];
+            popup_d9a1e987da874cb394c80c763e070870.setContent(html_2248e39107d04067b1a21be2e99d8612);
+        
+
+        circle_marker_b42f081be7c442ecb81602494ffaef86.bindPopup(popup_d9a1e987da874cb394c80c763e070870)
+        ;
+
+        
+    
+    
+            var circle_marker_a0230aef4c534719a07c745af38d776d = L.circleMarker(
+                [32.86162000000007, -117.23321999999996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_f7290a21171441448d67ce9101a49669 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c14c1a5c531436e89f2b856688c9af8 = $(`<div id="html_2c14c1a5c531436e89f2b856688c9af8" style="width: 100.0%; height: 100.0%;">University City, San Diego</div>`)[0];
+            popup_f7290a21171441448d67ce9101a49669.setContent(html_2c14c1a5c531436e89f2b856688c9af8);
+        
+
+        circle_marker_a0230aef4c534719a07c745af38d776d.bindPopup(popup_f7290a21171441448d67ce9101a49669)
+        ;
+
+        
+    
+    
+            var circle_marker_301d852c3c124133a2784f9c665aa394 = L.circleMarker(
+                [32.704434000000006, -117.12227119943144],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_45679a5cbc804ecb9201ea493edfb9a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95940216e11c4bf1bcb60b740a5bebd8 = $(`<div id="html_95940216e11c4bf1bcb60b740a5bebd8" style="width: 100.0%; height: 100.0%;">University Heights, San Diego</div>`)[0];
+            popup_45679a5cbc804ecb9201ea493edfb9a6.setContent(html_95940216e11c4bf1bcb60b740a5bebd8);
+        
+
+        circle_marker_301d852c3c124133a2784f9c665aa394.bindPopup(popup_45679a5cbc804ecb9201ea493edfb9a6)
+        ;
+
+        
+    
+    
+            var circle_marker_1e0fc204f2f14fc0851973a4787fd397 = L.circleMarker(
+                [32.71452000000005, -117.24454999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_346e7e552d6646148d6c19e5f3b5b177);
+        
+    
+        var popup_9cf9070b3fdb4e67ad0e53a338d5f5c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a1b48b0ad3841948a486fc219651d22 = $(`<div id="html_2a1b48b0ad3841948a486fc219651d22" style="width: 100.0%; height: 100.0%;">Valencia Park, San Diego</div>`)[0];
+            popup_9cf9070b3fdb4e67ad0e53a338d5f5c6.setContent(html_2a1b48b0ad3841948a486fc219651d22);
+        
+
+        circle_marker_1e0fc204f2f14fc0851973a4787fd397.bindPopup(popup_9cf9070b3fdb4e67ad0e53a338d5f5c6)
+        ;
+
+        
+    
+</script>
