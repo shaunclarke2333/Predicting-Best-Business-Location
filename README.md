@@ -1,4 +1,4 @@
-Using Kmeans to Predicting Best Business Location
+Using Kmeans to Predict Best Business Location
 
 Introduction:  
 
