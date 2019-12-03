@@ -1,4 +1,4 @@
-Predicting Best Business Location
+Using Kmeans to Predicting Best Business Location
 
 Introduction:  
 
@@ -12,3 +12,12 @@ Target Audience of this project:
 
 This project is particularly useful to business owners and investors looking to open or invest in new Chinese restaurant in San Diego California. This project is timely as San Diego is saturated with Chinese restaurants. Data from San Diego .gov showed that Chinese restaurants are expected to grow by an additional 8 percent. 
  
+Methodology:
+
+Firstly, we need to get the list of neighborhoods in the city of San Diego. Fortunately, the list is available in the Wikipedia page (https://en.wikipedia.org/wiki/Category:Neighborhoods_in_San_Diego). We will use web scraping with Python requests and the beautifulsoup package to extract a list of the neighborhood’s data. However, this is just a list of names. We need to get the geographical coordinates in the form of latitude and longitude in order to be able to use Foursquare API. To do so, we will use the Geocoder package that will allow us to convert address into geographical coordinates in the form of latitude and longitude. After gathering the data, we will populate the data into a pandas DataFrame and then visualize the neighborhoods on a map using the Folium package. This allows us to perform a stare and compare to make sure that the geographical coordinates returned by the Geocoder package are correctly plotted in the city of San Diego.  
+
+Next, we will use Foursquare API to get the top 100 venues that are within a radius of 2000 meters. We need to register a Foursquare Developer Account in order to obtain the Foursquare ID and Foursquare secret key. We then make API calls to Foursquare passing in the geographical coordinates of the neighborhoods in a Python loop. Foursquare will return the venue data in JSON format and we will extract the venue name, venue category, venue latitude and longitude. With the data, we can validate how many venues were returned for each neighborhood and examine how many unique categories can be created from all the returned venues. Then, we will analyze each neighborhood by grouping the rows by neighborhood and taking the mean of the frequency of occurrence of each venue category. By doing so, we are also preparing the data for use in clustering. Since we are analyzing the “Chinese Restaurant” data, we will filter the “Chinese Restaurant” as a venue category for the neighborhoods.  
+
+Lastly, we will perform clustering on the data by using k-means clustering. K-means clustering algorithm identifies k number of centroids, and then allocates every data point to the nearest cluster, while keeping the centroids as small as possible. It is one of the simplest and most popular unsupervised machine learning algorithms and is particularly suited to solve the problem for this project. We will cluster the neighborhoods into 3 clusters based on their frequency of occurrence for “Chinese Restaurant”. The results will allow us to identify which neighborhoods have higher concentration of Chinese Restaurants while which neighborhoods have fewer number of Chinese Restaurants. 
+
+Based on the occurrence of Chinese Restaurants in different neighborhoods, it will help us to answer the question as to which neighborhoods are most suitable to open new Chinese Restaurants. 
